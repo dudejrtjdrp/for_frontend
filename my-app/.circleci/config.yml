@@ -1,0 +1,16 @@
+version: 2.1
+
+jobs:
+  build:
+    docker:
+      - image: cimg/node:20.11
+    steps:
+      - checkout
+      - run: pnpm install
+      - run: pnpm build
+      - run: pnpm test
+
+workflows:
+  build_and_test:
+    jobs:
+      - build
