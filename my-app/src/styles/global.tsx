@@ -38,7 +38,7 @@ const globalStyles = css`
   body {
     line-height: 1.3;
     background-color: '#FFFFFF';
-    margin-bottom: 80px;
+    height: 100vh;
   }
 
   ol,
