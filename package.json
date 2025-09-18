@@ -1,13 +1,16 @@
 {
 	"dependencies": {
+		"@ant-design/v5-patch-for-react-19": "^1.0.3",
+		"@babel/plugin-transform-typescript": "7.19.3",
 		"@emotion/react": "^11.14.0",
 		"@emotion/styled": "^11.14.1",
 		"@tanstack/react-query": "^5.85.3",
-		"recoil": "^0.7.7",
-	    "@babel/plugin-transform-typescript": "7.19.3"
+		"react-hook-form": "^7.62.0",
+		"recoil": "^0.7.7"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.28.3",
+		"@babel/plugin-transform-typescript": "7.19.3",
 		"@babel/preset-env": "^7.28.3",
 		"@babel/preset-react": "^7.27.1",
 		"@swc/core": "^1.13.3",
@@ -16,7 +19,6 @@
 		"@types/react-dom": "^19.1.7",
 		"esbuild": "^0.25.9",
 		"typescript": "^5.9.2",
-		"webpack": "^4.28",
-		"@babel/plugin-transform-typescript": "7.19.3"
+		"webpack": "^4.28"
 	}
 }

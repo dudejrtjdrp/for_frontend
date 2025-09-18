@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    height: 100%;
+}
+
+.wrap {
+    width: 400px;
+}

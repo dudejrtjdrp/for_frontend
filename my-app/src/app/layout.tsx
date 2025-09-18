@@ -1,5 +1,6 @@
 'use client'
 
+import 'antd/dist/reset.css';
 import { Global, ThemeProvider } from "@emotion/react"
 import  { GlobalStyle }  from "@/styles/global";
 import theme from "@/styles/theme";
